@@ -2,7 +2,9 @@ import collections as co
 import numpy as np
 import os
 import pathlib
-import sktime.utils.load_data
+#import sktime.utils.load_data
+import sktime
+from sktime.datasets import load_from_tsfile_to_dataframe
 import torch
 import urllib.request
 import zipfile
